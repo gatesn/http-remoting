@@ -10,6 +10,7 @@ dependencies {
     compile 'com.squareup.okhttp3:logging-interceptor'
     compile 'com.squareup.okhttp3:okhttp'
     compile 'io.dropwizard.metrics:metrics-core'
+    compile 'javax.ws.rs:javax.ws.rs-api'
     compile 'org.slf4j:slf4j-api'
 
     testCompile project(":jersey-servers")
